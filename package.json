@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify && node -e \"const fs=require('node:fs'); fs.copyFileSync('src/index.html','dist/index.html'); fs.cpSync('src/img','dist/img',{recursive:true})\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
