@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+}
+
+.content-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+}
+
+.nav{
+    background-color: #333;
+    color: white;
+    padding: 100px;
+}
+
+.card{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
